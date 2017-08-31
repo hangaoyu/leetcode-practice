@@ -7,8 +7,7 @@ class Solution(object):
             m = target - n
             if n in buff_dict:
                 return [buff_dict[n], i]
-            else:
-                buff_dict[m] = i
+            buff_dict[m] = i
 
 
 nums = [11, 2, 2, 7, 11, 15]
