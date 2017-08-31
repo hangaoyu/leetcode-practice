@@ -13,5 +13,6 @@ class Solution(object):
 
 nums = [11, 2, 2, 7, 11, 15]
 target = 9
+#test
 solution = Solution()
 print (solution.twoSum(nums, target))
